@@ -1,0 +1,39 @@
+/*from here*/
+#navigationBar > ul > li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+	margin-right: 10px;
+}
+
+#navigationBar {
+	text-align: center;
+}
+
+a .disabled:first-of-type {
+	color: purple;
+}
+
+.disabled {
+	color: gray;
+}
+
+.active {
+	color: yellow;
+}
+
+.grandparent h3:first-child {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+/*to here was from head*/
+
+.parent div:first-of-type {
+	color: red;
+}
+
+.parent h4:first-of-type {
+	background-color: red;
+}
+
